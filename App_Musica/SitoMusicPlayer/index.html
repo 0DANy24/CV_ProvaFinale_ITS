@@ -1,0 +1,77 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleApp.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div id="schermo">
+        <p id="appName">music app</p>
+
+        <div id="sfondo-app">
+            <button id="tasto-return">
+                <img src="immagini-interfaccia\tema-scuro\tasto-Return-bianco.svg"/>
+            </button>
+            <button id="tasto-options">
+                <img src="immagini-interfaccia\tema-scuro\tasto-Opzioni-bianco.svg"/>
+            </button>
+            
+            <div id="riquadro-Immagine">
+                <img id="immagine-musica" width="310px" height="310px" src="immagini-interfaccia\altre-immagini\SfondoMusica-Snowfall.png"/>
+            </div>
+
+            <div id="riquadro-TitoliPiuMeno">
+                <div id="riquadro-titoli"> <!-- Sta a sinistra -->
+                    <p id="titolo-musica">Snowfall</p>
+                    <p id="autore-musica">Øneheart, reidenshi</p>
+                </div>
+
+                <div id="riquadro-PiuMeno"> <!-- Sta a destra -->
+                    <button id="tasto-Piu">
+                        <img src="immagini-interfaccia\tema-scuro\tasto-Meno-bianco.svg"/>
+                    </button>
+
+                    <button id="tasto-Meno">
+                        <img src="immagini-interfaccia\tema-scuro\tasto-Piu-bianco.svg"/>
+                    </button>
+                </div>
+            </div>
+
+            <div id="riquadro-BarraProgressione">
+                <!-- <img id="barraProgressione" src="immagini-interfaccia\tema-scuro\progressBar-bianco.svg"/> -->
+                <svg width="310" height="6" viewBox="0 0 310 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="3" y1="3" x2="307.002" y2="3" stroke="#959595" stroke-width="6" stroke-linecap="round"/>
+                    <line id="lineaProgressione" x1="3" y1="3" x2="202" y2="3" stroke="#E5E5E5" stroke-width="6" stroke-linecap="round"/>
+                </svg>
+            </div>
+
+            <div id="riquadro-PlayControllo">
+                <button>
+                    <img id="tastoLoopSong" src="immagini-interfaccia\tema-scuro\tasto-LoopSong-bianco.svg"/>
+                </button>
+
+                <button>
+                    <img id="tastoPreviousSong" src="immagini-interfaccia\tema-scuro\tasto-PreviousSong-bianco.svg"/>
+                </button>
+
+                <button onclick="playStopMusic()" id="tastoPlayOggetto">
+                    <img id="tastoPlay" src="immagini-interfaccia\tema-scuro\tasto-Play-bianco.svg"/>
+                </button>
+
+                <button>
+                    <img id="tastoNextSong" src="immagini-interfaccia\tema-scuro\tasto-NextSong-bianco.svg"/>
+                </button>
+
+                <button>
+                    <img id="tastoShuffle" src="immagini-interfaccia\tema-scuro\tasto-Shuffle-bianco.svg"/>
+                </button>
+            </div>
+
+            <div id="riquadro-TastoFondoSchermo">
+                <button id="tastoSeeLyrics">
+                    <p id="testo-SeeLyrics">See Lyrics</p>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>

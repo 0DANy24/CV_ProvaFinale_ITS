@@ -1,0 +1,152 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    /*color: white;*/
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+p {
+    color: #E5E5E5;
+}
+
+button {
+    background-color: transparent;
+    border: 0px;
+}
+
+#schermo {
+    background-color: rgb(0, 0, 0);
+    width: 393px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sfondo-app {
+    background: rgb(19,50,250);
+    background: radial-gradient(circle at top, rgb(19, 43, 204) 5%, rgb(11, 18, 64) 80%);;
+    width: 373px;
+}
+
+#tasto-return {
+    padding-top: 23px;
+    padding-left: 30px;
+}
+
+#tasto-options {
+    padding-left: 313px;
+}
+
+
+#riquadro-Immagine {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#immagine-musica {
+    border-radius: 10px;
+}
+
+#riquadro-TitoliPiuMeno {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;    
+}
+
+#riquadro-PiuMeno {
+    padding-left: 80px;
+}
+
+#titolo-musica {
+    font-size: 25px;
+}
+
+#autore-musica {
+    font-size: 15px;
+}
+
+#tasto-Piu {
+    padding-right: 30px;
+}
+#tasto-Meno {
+    padding-right: 20px;
+}
+
+#riquadro-BarraProgressione {
+    padding-top: 30px;
+    padding-left: 32px;
+}
+
+
+#riquadro-PlayControllo {
+    display: flex;
+    justify-content: center;
+    padding-top: 56px;
+}
+
+#tastoPlay {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#tastoPreviousSong {
+    padding-left: 20px;
+}
+#tastoNextSong {
+    padding-right: 20px;
+}
+
+#testo-SeeLyrics {
+    font-size: 20px;
+    color: black;
+}
+
+#riquadro-TastoFondoSchermo {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#tastoSeeLyrics {
+    background-color: #B1B1B1;
+    width: 310px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+@keyframes onClick {
+    0% {transform: scale(1);}
+    50% {transform: scale(0.90);}
+    100% {transform: scale(1);}
+}
+
+button:active {
+    animation-timing-function: ease-out;
+    animation-name: onClick;
+    animation-duration: 400ms;
+}
+
+button:hover {
+    opacity: 0.6;
+    transition: 350ms;
+    transition-timing-function: ease-out;
+}
+
+@keyframes offHover {
+    from {opacity: 0.6}
+    to {opacity: 1}
+}
+
+button:not(:hover) {
+    animation-timing-function: ease-in;
+    animation-name: offHover;
+    animation-duration: 350ms;
+
+}
