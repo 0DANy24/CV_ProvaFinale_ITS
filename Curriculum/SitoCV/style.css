@@ -1,0 +1,102 @@
+*{ margin: 0px; }
+
+#sfondo {
+    background: rgb(80,156,255);
+    background: radial-gradient(circle at top left, rgba(80,156,255,1) 0%, rgba(22,35,114,1) 100%);
+    width: 595px;
+    height: 842px;
+}
+
+#carta-presentazione {
+    background-color: #D9D9D9;
+    border-radius: 80px;
+    width: 240px;
+    height: 550px;
+    left: 18px;
+    top: 53px;
+    
+    text-align: center;
+    position: relative;
+}
+
+#foto-profilo {
+    background-color: #2E2E2E;
+    width: 200px;
+    height: 200px;
+    border-radius: 70px;
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#il-resto {
+    position: absolute;
+    width: 100%;
+    top: 225px;
+}
+
+#titolo-nomeCognome {
+    font-size: 22px;
+    line-height: 28px;
+}
+
+#titolo-formazione {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+#carta-EsperienzeLavorative {
+    width: 283px;
+    height: 222px;
+    background-color: #D9D9D9;
+    opacity: 35%;
+
+    border-radius: 20px;
+
+    position: absolute;
+    left: 284px;
+    top: 27px;
+}
+#div-titoloEsperienze {
+    width: 283px;
+    height: 40px;
+    background-color: #A0BBDE;
+    opacity: 100%;
+
+    border-radius: 20px;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#carta-StoricoEducazione {
+    width: 283px;
+    height: 346px;
+    background-color: #D9D9D9;
+    opacity: 35%;
+
+    border-radius: 20px;
+
+    position: absolute;
+    left: 284px;
+    top: 279px;
+}
+#div-titoloEducazione {
+    width: 283px;
+    height: 40px;
+    background-color: #A0BBDE;
+    opacity: 100%;
+
+    border-radius: 20px;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
